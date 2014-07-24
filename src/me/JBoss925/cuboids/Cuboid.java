@@ -1,6 +1,5 @@
 package me.JBoss925.cuboids;
 
-import net.minecraft.server.v1_7_R4.AxisAlignedBB;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -62,20 +61,6 @@ public class Cuboid implements Iterable<Block>, Cloneable, ConfigurationSerializ
         this.zmax = (Integer) map.get("zmax");
         this.zmin = (Integer) map.get("zmin");
         this.w = Bukkit.getServer().getWorld(map.get("world").toString());
-    }
-
-    public Cuboid(AxisAlignedBB aabb, World world){
-        Location l1 = new Location(world, aabb.a, aabb.b, aabb.c);
-        Location l2 = new Location(world, aabb.d, aabb.e, aabb.f);
-        if(l1.getWorld().getName().equals(l2.getWorld().getName())){
-            this.w = l1.getWorld();
-            this.xmax = Math.max(l1.getBlockX(), l2.getBlockX());
-            this.xmin = Math.min(l1.getBlockX(), l2.getBlockX());
-            this.ymax = Math.max(l1.getBlockY(), l2.getBlockY());
-            this.ymin = Math.min(l1.getBlockY(), l2.getBlockY());
-            this.zmax = Math.max(l1.getBlockZ(), l2.getBlockZ());
-            this.zmin = Math.min(l1.getBlockZ(), l2.getBlockZ());
-        }
     }
 
     public int getXmax(){

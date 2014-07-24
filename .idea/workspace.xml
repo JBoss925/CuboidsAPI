@@ -67,7 +67,7 @@
       <file leaf-file-name="Cuboid.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Cuboid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="5" selection-start="2799" selection-end="2799" vertical-scroll-proportion="-2.8398204" vertical-offset="3067" max-vertical-offset="3750">
+            <state line="63" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="1.4146707" vertical-offset="0" max-vertical-offset="3525">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +78,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="13" column="1" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -141,6 +141,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,7 +198,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -260,19 +260,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -298,6 +285,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -435,6 +435,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Cuboid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="5" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="3750">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Cuboid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="256" column="50" selection-start="7380" selection-end="7380" vertical-scroll-proportion="0.0" vertical-offset="3435" max-vertical-offset="3585">
@@ -704,7 +720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Cuboid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="5" selection-start="2799" selection-end="2799" vertical-scroll-proportion="-2.8398204" vertical-offset="3067" max-vertical-offset="3750">
+        <state line="63" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="1.4146707" vertical-offset="0" max-vertical-offset="3525">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
