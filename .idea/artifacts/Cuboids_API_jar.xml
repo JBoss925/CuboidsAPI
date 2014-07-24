@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Cuboids API:jar">
+    <output-path>$USER_HOME$/Dropbox/craftbukkit/plugins</output-path>
+    <root id="archive" name="Cuboids API.jar">
+      <element id="module-output" name="Cuboids API" />
+      <element id="extracted-dir" path="$USER_HOME$/Dropbox/craftbukkit/craftbukkit.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
