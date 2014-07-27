@@ -214,10 +214,10 @@ public class Cuboid implements Iterable<Block>, Cloneable, ConfigurationSerializ
 
         public Map<Location, Material> getBlockAtLocations(){
             blocks2 = new HashMap<Location, Material>();
-            for(int x = getXmin(); x <= getXmax(); x++){
-                for(int y = getYmin(); y <= getYmax(); y++){
-                    for(int z = getZmin(); z <= getZmax(); z++){
-                        blocks2.put(new Location(getWorld(), x, y, z), getWorld().getBlockAt(x, y, z).getType());
+            for(int x = cci.getXmin(); x <= cci.getXmax(); x++){
+                for(int y = cci.getYmin(); y <= cci.getYmax(); y++){
+                    for(int z = cci.getZmin(); z <= cci.getZmax(); z++){
+                        blocks2.put(new Location(cci.getWorld(), x, y, z), getWorld().getBlockAt(x, y, z).getType());
                     }
                 }
             }
@@ -226,9 +226,9 @@ public class Cuboid implements Iterable<Block>, Cloneable, ConfigurationSerializ
 
         public Collection<Location> getLocations(){
             blocks3 = new ArrayList<Location>();
-            for(int x = getXmin(); x <= getXmax(); x++){
-                for(int y = getYmin(); y <= getYmax(); y++){
-                    for(int z = getZmin(); z <= getZmax(); z++){
+            for(int x = cci.getXmin(); x <= cci.getXmax(); x++){
+                for(int y = cci.getYmin(); y <= cci.getYmax(); y++){
+                    for(int z = cci.getZmin(); z <= cci.getZmax(); z++){
                         blocks3.add(new Location(wci, x, y, z));
                     }
                 }
@@ -238,10 +238,10 @@ public class Cuboid implements Iterable<Block>, Cloneable, ConfigurationSerializ
 
         public Collection<Block> iterateBlocks(){
             blocks = new ArrayList<Block>();
-            for(int x = getXmin(); x <= getXmax(); x++){
-                for(int y = getYmin(); y <= getYmax(); y++){
-                    for(int z = getZmin(); z <= getZmax(); z++){
-                        blocks.add(getWorld().getBlockAt(x, y, z));
+            for(int x = cci.getXmin(); x <= cci.getXmax(); x++){
+                for(int y = cci.getYmin(); y <= cci.getYmax(); y++){
+                    for(int z = cci.getZmin(); z <= cci.getZmax(); z++){
+                        blocks.add(cci.getWorld().getBlockAt(x, y, z));
                     }
                 }
             }

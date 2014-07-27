@@ -67,7 +67,7 @@
       <file leaf-file-name="Cuboid.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Cuboid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="1.4146707" vertical-offset="0" max-vertical-offset="3525">
+            <state line="242" column="56" selection-start="6904" selection-end="6904" vertical-scroll-proportion="1.3265941" vertical-offset="2327" max-vertical-offset="3525">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,9 +110,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
+    <option name="x" value="444" />
     <option name="y" value="22" />
-    <option name="width" value="1240" />
+    <option name="width" value="837" />
     <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -141,6 +141,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,7 +199,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,6 +260,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -285,19 +298,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -386,7 +386,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="22" width="1240" height="778" extended-state="6" />
+    <frame x="444" y="22" width="837" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -404,7 +404,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26048386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.260454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -435,6 +435,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Cuboid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="3525">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Cuboid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="5" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="3750">
@@ -720,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/JBoss925/cuboids/Cuboid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="1.4146707" vertical-offset="0" max-vertical-offset="3525">
+        <state line="242" column="56" selection-start="6904" selection-end="6904" vertical-scroll-proportion="1.3265941" vertical-offset="2327" max-vertical-offset="3525">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
